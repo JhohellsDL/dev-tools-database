@@ -1,0 +1,39 @@
+{
+    "version": "1.0.0",
+    "lastUpdated": "2025-06-24T00:00:00Z",
+    "totalTools": 2,
+    "repository": {
+      "name": "dev-tools-database",
+      "description": "Base de datos personal de herramientas de desarrollo",
+      "author": "tu-usuario",
+      "license": "MIT"
+    },
+    "api": {
+      "baseUrl": "https://raw.githubusercontent.com/tu-usuario/dev-tools-database/main",
+      "endpoints": {
+        "categories": "/categories.json",
+        "meta": "/meta.json",
+        "allTools": "/tools/",
+        "frameworks": "/tools/frameworks.json",
+        "libraries": "/tools/libraries.json",
+        "tools": "/tools/tools.json",
+        "documentation": "/tools/documentation.json",
+        "design": "/tools/design.json",
+        "testing": "/tools/testing.json",
+        "devops": "/tools/devops.json",
+        "learning": "/tools/learning.json"
+      }
+    },
+    "stats": {
+      "totalTools": 2,
+      "categoriesCount": 8,
+      "tagsCount": 21,
+      "lastSync": "2025-06-24T00:00:00Z"
+    },
+    "settings": {
+      "autoSync": true,
+      "syncInterval": 3600,
+      "cacheExpiry": 86400,
+      "maxRetries": 3
+    }
+  }

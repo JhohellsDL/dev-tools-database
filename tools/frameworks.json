@@ -1,0 +1,64 @@
+{
+    "category": "frameworks",
+    "lastUpdated": "2025-06-24T00:00:00Z",
+    "tools": [
+      {
+        "id": "react-001",
+        "name": "React",
+        "description": "Biblioteca de JavaScript para construir interfaces de usuario",
+        "url": "https://reactjs.org/",
+        "officialUrl": "https://reactjs.org/",
+        "documentationUrl": "https://reactjs.org/docs/getting-started.html",
+        "githubUrl": "https://github.com/facebook/react",
+        "tags": ["javascript", "frontend", "ui", "spa", "popular"],
+        "category": "frameworks",
+        "subcategory": "frontend",
+        "language": "javascript",
+        "rating": 4.8,
+        "popularity": "high",
+        "learningCurve": "medium",
+        "dateAdded": "2025-06-24T00:00:00Z",
+        "lastUpdated": "2025-06-24T00:00:00Z",
+        "recommendedBy": "equipo-frontend",
+        "notes": "Muy popular para SPAs, gran ecosistema",
+        "useCases": ["web apps", "mobile apps con React Native"],
+        "alternatives": ["Vue.js", "Angular", "Svelte"],
+        "requirements": {
+          "nodejs": ">=14.0.0",
+          "npm": ">=6.0.0"
+        },
+        "isActive": true,
+        "license": "MIT",
+        "company": "Meta"
+      },
+      {
+        "id": "vue-002",
+        "name": "Vue.js",
+        "description": "Framework progresivo de JavaScript para construir interfaces de usuario",
+        "url": "https://vuejs.org/",
+        "officialUrl": "https://vuejs.org/",
+        "documentationUrl": "https://vuejs.org/guide/",
+        "githubUrl": "https://github.com/vuejs/vue",
+        "tags": ["javascript", "frontend", "ui", "progressive", "easy"],
+        "category": "frameworks",
+        "subcategory": "frontend",
+        "language": "javascript",
+        "rating": 4.7,
+        "popularity": "high",
+        "learningCurve": "easy",
+        "dateAdded": "2025-06-24T00:00:00Z",
+        "lastUpdated": "2025-06-24T00:00:00Z",
+        "recommendedBy": "developer-twitter",
+        "notes": "Curva de aprendizaje suave, documentación excelente",
+        "useCases": ["web apps", "prototipos rápidos"],
+        "alternatives": ["React", "Angular", "Svelte"],
+        "requirements": {
+          "nodejs": ">=12.0.0",
+          "npm": ">=6.0.0"
+        },
+        "isActive": true,
+        "license": "MIT",
+        "company": "Independent"
+      }
+    ]
+  }

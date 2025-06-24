@@ -1,0 +1,131 @@
+{
+    "categories": [
+      {
+        "id": "frameworks",
+        "name": "Frameworks",
+        "description": "Frameworks de desarrollo",
+        "icon": "🏗️",
+        "color": "#FF6B6B",
+        "subcategories": [
+          { "id": "frontend", "name": "Frontend" },
+          { "id": "backend", "name": "Backend" },
+          { "id": "mobile", "name": "Mobile" },
+          { "id": "desktop", "name": "Desktop" }
+        ]
+      },
+      {
+        "id": "libraries",
+        "name": "Librerías",
+        "description": "Librerías y paquetes útiles",
+        "icon": "📚",
+        "color": "#4ECDC4",
+        "subcategories": [
+          { "id": "ui", "name": "UI Components" },
+          { "id": "utils", "name": "Utilidades" },
+          { "id": "state", "name": "Estado" },
+          { "id": "http", "name": "HTTP/API" }
+        ]
+      },
+      {
+        "id": "tools",
+        "name": "Herramientas",
+        "description": "Herramientas de desarrollo",
+        "icon": "🔧",
+        "color": "#45B7D1",
+        "subcategories": [
+          { "id": "build", "name": "Build Tools" },
+          { "id": "bundler", "name": "Bundlers" },
+          { "id": "linter", "name": "Linters" },
+          { "id": "formatter", "name": "Formatters" }
+        ]
+      },
+      {
+        "id": "documentation",
+        "name": "Documentación",
+        "description": "Recursos de documentación",
+        "icon": "📖",
+        "color": "#96CEB4",
+        "subcategories": [
+          { "id": "official", "name": "Oficial" },
+          { "id": "tutorial", "name": "Tutoriales" },
+          { "id": "guide", "name": "Guías" },
+          { "id": "reference", "name": "Referencias" }
+        ]
+      },
+      {
+        "id": "design",
+        "name": "Diseño",
+        "description": "Herramientas de diseño y UI/UX",
+        "icon": "🎨",
+        "color": "#FFEAA7",
+        "subcategories": [
+          { "id": "ui-kit", "name": "UI Kits" },
+          { "id": "icons", "name": "Iconos" },
+          { "id": "colors", "name": "Colores" },
+          { "id": "prototyping", "name": "Prototipado" }
+        ]
+      },
+      {
+        "id": "testing",
+        "name": "Testing",
+        "description": "Herramientas de testing",
+        "icon": "🧪",
+        "color": "#DDA0DD",
+        "subcategories": [
+          { "id": "unit", "name": "Unit Testing" },
+          { "id": "integration", "name": "Integration" },
+          { "id": "e2e", "name": "End-to-End" },
+          { "id": "performance", "name": "Performance" }
+        ]
+      },
+      {
+        "id": "devops",
+        "name": "DevOps",
+        "description": "Herramientas de DevOps y deployment",
+        "icon": "⚙️",
+        "color": "#FDA085",
+        "subcategories": [
+          { "id": "ci-cd", "name": "CI/CD" },
+          { "id": "docker", "name": "Containerización" },
+          { "id": "cloud", "name": "Cloud" },
+          { "id": "monitoring", "name": "Monitoreo" }
+        ]
+      },
+      {
+        "id": "learning",
+        "name": "Aprendizaje",
+        "description": "Recursos de aprendizaje",
+        "icon": "🎓",
+        "color": "#74B9FF",
+        "subcategories": [
+          { "id": "course", "name": "Cursos" },
+          { "id": "book", "name": "Libros" },
+          { "id": "blog", "name": "Blogs" },
+          { "id": "video", "name": "Videos" }
+        ]
+      }
+    ],
+    "tags": [
+      { "name": "javascript", "color": "#F7DF1E" },
+      { "name": "typescript", "color": "#3178C6" },
+      { "name": "react", "color": "#61DAFB" },
+      { "name": "vue", "color": "#4FC08D" },
+      { "name": "angular", "color": "#DD0031" },
+      { "name": "nodejs", "color": "#339933" },
+      { "name": "python", "color": "#3776AB" },
+      { "name": "java", "color": "#ED8B00" },
+      { "name": "kotlin", "color": "#7F52FF" },
+      { "name": "android", "color": "#3DDC84" },
+      { "name": "ios", "color": "#007AFF" },
+      { "name": "frontend", "color": "#FF6B6B" },
+      { "name": "backend", "color": "#4ECDC4" },
+      { "name": "mobile", "color": "#45B7D1" },
+      { "name": "ui", "color": "#96CEB4" },
+      { "name": "api", "color": "#FFEAA7" },
+      { "name": "database", "color": "#DDA0DD" },
+      { "name": "testing", "color": "#FDA085" },
+      { "name": "popular", "color": "#74B9FF" },
+      { "name": "new", "color": "#00B894" },
+      { "name": "recommended", "color": "#E17055" }
+    ]
+  }
