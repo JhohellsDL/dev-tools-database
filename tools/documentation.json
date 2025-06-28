@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "category": "documentation",
+  "lastUpdated": "2025-06-28T00:00:00Z",
+  "tools": [
+    {
+      "id": "mdn-web-docs",
+      "name": "MDN Web Docs",
+      "description": "Documentación completa para tecnologías web, incluyendo HTML, CSS y JavaScript.",
+      "url": "https://developer.mozilla.org/",
+      "officialUrl": "https://developer.mozilla.org/",
+      "documentationUrl": "https://developer.mozilla.org/",
+      "githubUrl": "https://github.com/mdn/content",
+      "tags": ["official", "web", "documentation", "javascript", "html", "css"],
+      "category": "documentation",
+      "subcategory": "official",
+      "language": "",
+      "rating": 5.0,
+      "popularity": "very high",
+      "learningCurve": "easy",
+      "dateAdded": "2025-06-28T00:00:00Z",
+      "lastUpdated": "2025-06-28T00:00:00Z",
+      "recommendedBy": "web-developers",
+      "notes": "Recurso indispensable para cualquier desarrollador web.",
+      "useCases": ["referencia rápida", "aprender nuevas tecnologías web", "solución de problemas"],
+      "alternatives": ["W3Schools", "Can I use..."],
+      "requirements": {},
+      "isActive": true,
+      "license": "CC-BY-SA 2.5",
+      "company": "Mozilla",
+      "icon": "https://developer.mozilla.org/favicon-48x48.cbbd161b.png"
+    }
+  ]
+}

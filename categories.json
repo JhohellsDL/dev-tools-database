@@ -1,9 +1,11 @@
 {
+    "version": "1.0.1",
     "categories": [
       {
         "id": "frameworks",
         "name": "Frameworks",
         "description": "Frameworks de desarrollo",
+        "path": "tools/frameworks.json",
         "icon": "🏗️",
         "color": "#FF6B6B",
         "subcategories": [
@@ -17,6 +19,7 @@
         "id": "libraries",
         "name": "Librerías",
         "description": "Librerías y paquetes útiles",
+        "path": "tools/libraries.json",
         "icon": "📚",
         "color": "#4ECDC4",
         "subcategories": [
@@ -30,6 +33,7 @@
         "id": "tools",
         "name": "Herramientas",
         "description": "Herramientas de desarrollo",
+        "path": "tools/tools.json",
         "icon": "🔧",
         "color": "#45B7D1",
         "subcategories": [
@@ -43,6 +47,7 @@
         "id": "documentation",
         "name": "Documentación",
         "description": "Recursos de documentación",
+        "path": "tools/documentation.json",
         "icon": "📖",
         "color": "#96CEB4",
         "subcategories": [
@@ -56,6 +61,7 @@
         "id": "design",
         "name": "Diseño",
         "description": "Herramientas de diseño y UI/UX",
+        "path": "tools/design.json",
         "icon": "🎨",
         "color": "#FFEAA7",
         "subcategories": [
@@ -69,6 +75,7 @@
         "id": "testing",
         "name": "Testing",
         "description": "Herramientas de testing",
+        "path": "tools/testing.json",
         "icon": "🧪",
         "color": "#DDA0DD",
         "subcategories": [
@@ -82,6 +89,7 @@
         "id": "devops",
         "name": "DevOps",
         "description": "Herramientas de DevOps y deployment",
+        "path": "tools/devops.json",
         "icon": "⚙️",
         "color": "#FDA085",
         "subcategories": [
@@ -95,6 +103,7 @@
         "id": "learning",
         "name": "Aprendizaje",
         "description": "Recursos de aprendizaje",
+        "path": "tools/learning.json",
         "icon": "🎓",
         "color": "#74B9FF",
         "subcategories": [

@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Dev Tools Database Schemas",
+  "description": "Schemas for categories and tool files in the Dev Tools Database.",
+  "definitions": {
+    "Subcategory": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique identifier for the subcategory." },
+        "name": { "type": "string", "description": "Display name of the subcategory." }
+      },
+      "required": ["id", "name"]
+    },
+    "Category": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique identifier for the category." },
+        "name": { "type": "string", "description": "Display name of the category." },
+        "description": { "type": "string", "description": "Brief description of the category." },
+        "path": { "type": "string", "description": "Path to the JSON file containing tools for this category." },
+        "icon": { "type": "string", "description": "Emoji or icon representing the category." },
+        "color": { "type": "string", "description": "Hex color code associated with the category." },
+        "subcategories": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/Subcategory" },
+          "description": "List of subcategories within this category."
+        }
+      },
+      "required": ["id", "name", "description", "path", "icon", "color", "subcategories"]
+    },
+    "Tag": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Name of the tag." },
+        "color": { "type": "string", "description": "Hex color code associated with the tag." }
+      },
+      "required": ["name", "color"]
+    },
+    "CategoriesFile": {
+      "type": "object",
+      "properties": {
+        "version": { "type": "string", "description": "Version of the categories file schema." },
+        "categories": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/Category" },
+          "description": "List of main categories."
+        },
+        "tags": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/Tag" },
+          "description": "List of global tags."
+        }
+      },
+      "required": ["version", "categories", "tags"]
+    },
+    "Tool": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique identifier for the tool." },
+        "name": { "type": "string", "description": "Name of the tool." },
+        "description": { "type": "string", "description": "Brief description of the tool." },
+        "url": { "type": "string", "format": "uri", "description": "URL to the tool's official website." },
+        "officialUrl": { "type": "string", "format": "uri", "description": "Official URL of the tool." },
+        "documentationUrl": { "type": "string", "format": "uri", "description": "URL to the tool's documentation." },
+        "githubUrl": { "type": "string", "format": "uri", "description": "URL to the tool's GitHub repository." },
+        "tags": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of tags associated with the tool."
+        },
+        "category": { "type": "string", "description": "The main category this tool belongs to (e.g., 'frameworks')." },
+        "subcategory": { "type": "string", "description": "ID of the subcategory this tool belongs to." },
+        "language": { "type": "string", "description": "Programming language primarily associated with the tool." },
+        "rating": { "type": "number", "description": "Rating of the tool (e.g., 4.8)." },
+        "popularity": { "type": "string", "description": "Popularity level of the tool (e.g., 'high', 'medium', 'low')." },
+        "learningCurve": { "type": "string", "description": "Learning curve of the tool (e.g., 'easy', 'medium', 'hard')." },
+        "dateAdded": { "type": "string", "format": "date-time", "description": "Date when the tool was added." },
+        "lastUpdated": { "type": "string", "format": "date-time", "description": "Date when the tool information was last updated." },
+        "recommendedBy": { "type": "string", "description": "Who recommended the tool." },
+        "notes": { "type": "string", "description": "Additional notes about the tool." },
+        "useCases": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of common use cases for the tool."
+        },
+        "alternatives": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "List of alternative tools."
+        },
+        "requirements": {
+          "type": "object",
+          "additionalProperties": { "type": "string" },
+          "description": "Technical requirements for the tool (e.g., Node.js version)."
+        },
+        "isActive": { "type": "boolean", "description": "Indicates if the tool is actively maintained." },
+        "license": { "type": "string", "description": "License under which the tool is distributed." },
+        "company": { "type": "string", "description": "Company or organization behind the tool." },
+        "icon": { "type": "string", "description": "URL to the tool's icon or an emoji." }
+      },
+      "required": ["id", "name", "description", "url", "tags", "subcategory"]
+    },
+    "ToolsFile": {
+      "type": "object",
+      "properties": {
+        "version": { "type": "string", "description": "Version of the tools file schema." },
+        "category": { "type": "string", "description": "The main category this tools file belongs to (e.g., 'frameworks')." },
+        "lastUpdated": { "type": "string", "format": "date-time", "description": "Date when this tools file was last updated." },
+        "tools": {
+          "type": "array",
+          "items": { "$ref": "#/definitions/Tool" },
+          "description": "List of tools for a specific category."
+        }
+      },
+      "required": ["version", "category", "lastUpdated", "tools"]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "category": "devops",
+  "lastUpdated": "2025-06-28T00:00:00Z",
+  "tools": [
+    {
+      "id": "docker",
+      "name": "Docker",
+      "description": "Plataforma para desarrollar, enviar y ejecutar aplicaciones en contenedores.",
+      "url": "https://www.docker.com/",
+      "officialUrl": "https://www.docker.com/",
+      "documentationUrl": "https://docs.docker.com/",
+      "githubUrl": "https://github.com/docker",
+      "tags": ["containerization", "devops", "virtualization", "cloud"],
+      "category": "devops",
+      "subcategory": "docker",
+      "language": "Go",
+      "rating": 4.9,
+      "popularity": "very high",
+      "learningCurve": "medium",
+      "dateAdded": "2025-06-28T00:00:00Z",
+      "lastUpdated": "2025-06-28T00:00:00Z",
+      "recommendedBy": "devops-engineers",
+      "notes": "Esencial para el desarrollo y despliegue moderno de aplicaciones.",
+      "useCases": ["microservicios", "despliegue continuo", "entornos de desarrollo consistentes"],
+      "alternatives": ["Kubernetes", "Podman"],
+      "requirements": {},
+      "isActive": true,
+      "license": "Apache-2.0",
+      "company": "Docker, Inc.",
+      "icon": "https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png"
+    }
+  ]
+}
