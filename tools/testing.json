@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "category": "testing",
+  "lastUpdated": "2025-06-28T00:00:00Z",
+  "tools": [
+    {
+      "id": "jest",
+      "name": "Jest",
+      "description": "Framework de pruebas de JavaScript con énfasis en la simplicidad.",
+      "url": "https://jestjs.io/",
+      "officialUrl": "https://jestjs.io/",
+      "documentationUrl": "https://jestjs.io/docs/",
+      "githubUrl": "https://github.com/facebook/jest",
+      "tags": ["unit", "javascript", "testing", "frontend", "backend"],
+      "category": "testing",
+      "subcategory": "unit",
+      "language": "javascript",
+      "rating": 4.8,
+      "popularity": "very high",
+      "learningCurve": "easy",
+      "dateAdded": "2025-06-28T00:00:00Z",
+      "lastUpdated": "2025-06-28T00:00:00Z",
+      "recommendedBy": "javascript-developers",
+      "notes": "Ideal para pruebas unitarias y de integración en proyectos JavaScript/TypeScript.",
+      "useCases": ["pruebas unitarias", "pruebas de integración", "pruebas de snapshot"],
+      "alternatives": ["Mocha", "Cypress", "Playwright"],
+      "requirements": {
+        "nodejs": ">=10.0.0"
+      },
+      "isActive": true,
+      "license": "MIT",
+      "company": "Meta",
+      "icon": "https://jestjs.io/img/jest-og.png"
+    }
+  ]
+}

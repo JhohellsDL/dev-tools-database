@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "category": "design",
+  "lastUpdated": "2025-06-28T00:00:00Z",
+  "tools": [
+    {
+      "id": "figma",
+      "name": "Figma",
+      "description": "Herramienta de diseño de interfaz de usuario y prototipado colaborativo.",
+      "url": "https://www.figma.com/",
+      "officialUrl": "https://www.figma.com/",
+      "documentationUrl": "https://help.figma.com/",
+      "githubUrl": "",
+      "tags": ["ui-kit", "prototyping", "design", "collaboration"],
+      "category": "design",
+      "subcategory": "prototyping",
+      "language": "",
+      "rating": 4.9,
+      "popularity": "very high",
+      "learningCurve": "medium",
+      "dateAdded": "2025-06-28T00:00:00Z",
+      "lastUpdated": "2025-06-28T00:00:00Z",
+      "recommendedBy": "design-community",
+      "notes": "Estándar de la industria para diseño UI/UX.",
+      "useCases": ["diseño de interfaces", "prototipado", "diseño colaborativo"],
+      "alternatives": ["Sketch", "Adobe XD"],
+      "requirements": {},
+      "isActive": true,
+      "license": "Proprietary",
+      "company": "Figma, Inc.",
+      "icon": "https://www.figma.com/favicon.ico"
+    }
+  ]
+}

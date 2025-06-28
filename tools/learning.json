@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "category": "learning",
+  "lastUpdated": "2025-06-28T00:00:00Z",
+  "tools": [
+    {
+      "id": "freecodecamp",
+      "name": "freeCodeCamp",
+      "description": "Aprende a programar de forma gratuita con miles de tutoriales y proyectos interactivos.",
+      "url": "https://www.freecodecamp.org/",
+      "officialUrl": "https://www.freecodecamp.org/",
+      "documentationUrl": "https://www.freecodecamp.org/news/",
+      "githubUrl": "https://github.com/freeCodeCamp",
+      "tags": ["course", "programming", "web-development", "certification", "free"],
+      "category": "learning",
+      "subcategory": "course",
+      "language": "",
+      "rating": 4.9,
+      "popularity": "very high",
+      "learningCurve": "easy",
+      "dateAdded": "2025-06-28T00:00:00Z",
+      "lastUpdated": "2025-06-28T00:00:00Z",
+      "recommendedBy": "developers-learning",
+      "notes": "Ofrece certificaciones reconocidas en la industria.",
+      "useCases": ["aprender a programar", "mejorar habilidades", "obtener certificaciones"],
+      "alternatives": ["Coursera", "Udemy", "edX"],
+      "requirements": {},
+      "isActive": true,
+      "license": "MIT",
+      "company": "freeCodeCamp.org",
+      "icon": "https://www.freecodecamp.org/favicon-32x32.png"
+    }
+  ]
+}

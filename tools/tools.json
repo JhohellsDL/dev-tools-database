@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "category": "tools",
+  "lastUpdated": "2025-06-28T00:00:00Z",
+  "tools": [
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "description": "Un editor de código fuente ligero pero potente que se ejecuta en su escritorio y está disponible para Windows, macOS y Linux.",
+      "url": "https://code.visualstudio.com/",
+      "officialUrl": "https://code.visualstudio.com/",
+      "documentationUrl": "https://code.visualstudio.com/docs",
+      "githubUrl": "https://github.com/microsoft/vscode",
+      "tags": ["editor", "ide", "development", "cross-platform", "extensible"],
+      "category": "tools",
+      "subcategory": "build",
+      "language": "TypeScript",
+      "rating": 4.9,
+      "popularity": "very high",
+      "learningCurve": "easy",
+      "dateAdded": "2025-06-28T00:00:00Z",
+      "lastUpdated": "2025-06-28T00:00:00Z",
+      "recommendedBy": "developers-worldwide",
+      "notes": "Altamente personalizable con una gran cantidad de extensiones.",
+      "useCases": ["desarrollo web", "desarrollo backend", "scripting", "educación"],
+      "alternatives": ["Sublime Text", "Atom", "IntelliJ IDEA"],
+      "requirements": {},
+      "isActive": true,
+      "license": "MIT",
+      "company": "Microsoft",
+      "icon": "https://code.visualstudio.com/assets/apple-touch-icon.png"
+    }
+  ]
+}

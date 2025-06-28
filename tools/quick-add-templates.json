@@ -1,0 +1,243 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-06-24T00:00:00Z",
+  "templates": {
+    "api-client": {
+      "name": "Template - Cliente API",
+      "category": "tools",
+      "subcategory": "http",
+      "tags": ["api", "http", "client", "testing"],
+      "useCases": ["api testing", "development", "debugging"],
+      "alternatives": ["Postman", "curl", "HTTPie", "Thunder Client"],
+      "learningCurve": "easy",
+      "requirements": {
+        "os": ["Windows", "macOS", "Linux"]
+      },
+      "features": ["REST testing", "request builder", "response viewer"]
+    },
+    "frontend-framework": {
+      "name": "Template - Framework Frontend",
+      "category": "frameworks",
+      "subcategory": "frontend",
+      "tags": ["frontend", "ui", "javascript", "spa"],
+      "useCases": ["web apps", "single page apps", "ui development"],
+      "alternatives": ["React", "Vue.js", "Angular", "Svelte"],
+      "learningCurve": "medium",
+      "requirements": {
+        "nodejs": ">=14.0.0",
+        "npm": ">=6.0.0"
+      },
+      "features": ["component system", "routing", "state management"]
+    },
+    "ui-library": {
+      "name": "Template - Librería UI",
+      "category": "libraries",
+      "subcategory": "ui",
+      "tags": ["ui", "components", "design-system", "frontend"],
+      "useCases": ["ui components", "design system", "rapid prototyping"],
+      "alternatives": ["Material-UI", "Ant Design", "Chakra UI"],
+      "learningCurve": "easy",
+      "features": ["pre-built components", "theming", "responsive design"]
+    },
+    "build-tool": {
+      "name": "Template - Herramienta Build",
+      "category": "tools",
+      "subcategory": "build",
+      "tags": ["build", "bundler", "compilation", "optimization"],
+      "useCases": ["build process", "bundling", "optimization"],
+      "alternatives": ["Webpack", "Vite", "Parcel", "Rollup"],
+      "learningCurve": "medium",
+      "requirements": {
+        "nodejs": ">=12.0.0"
+      },
+      "features": ["bundling", "optimization", "dev server"]
+    },
+    "testing-tool": {
+      "name": "Template - Herramienta Testing",
+      "category": "testing",
+      "subcategory": "unit",
+      "tags": ["testing", "unit-test", "automation", "qa"],
+      "useCases": ["unit testing", "integration testing", "test automation"],
+      "alternatives": ["Jest", "Mocha", "Cypress", "Playwright"],
+      "learningCurve": "medium",
+      "features": ["test runner", "assertions", "mocking"]
+    },
+    "documentation": {
+      "name": "Template - Documentación",
+      "category": "documentation",
+      "subcategory": "official",
+      "tags": ["documentation", "reference", "guide"],
+      "useCases": ["learning", "reference", "troubleshooting"],
+      "alternatives": [],
+      "learningCurve": "easy",
+      "features": ["comprehensive docs", "examples", "tutorials"]
+    },
+    "design-tool": {
+      "name": "Template - Herramienta Diseño",
+      "category": "design",
+      "subcategory": "prototyping",
+      "tags": ["design", "ui-ux", "prototyping", "mockup"],
+      "useCases": ["ui design", "prototyping", "wireframing"],
+      "alternatives": ["Figma", "Sketch", "Adobe XD"],
+      "learningCurve": "medium",
+      "features": ["design tools", "collaboration", "prototyping"]
+    },
+    "devops-tool": {
+      "name": "Template - Herramienta DevOps",
+      "category": "devops",
+      "subcategory": "ci-cd",
+      "tags": ["devops", "deployment", "automation", "ci-cd"],
+      "useCases": ["deployment", "automation", "monitoring"],
+      "alternatives": ["Jenkins", "GitHub Actions", "Docker"],
+      "learningCurve": "hard",
+      "features": ["automation", "deployment", "monitoring"]
+    },
+    "learning-resource": {
+      "name": "Template - Recurso Aprendizaje",
+      "category": "learning",
+      "subcategory": "tutorial",
+      "tags": ["learning", "tutorial", "education"],
+      "useCases": ["learning", "skill development", "reference"],
+      "alternatives": [],
+      "learningCurve": "varies",
+      "features": ["educational content", "examples", "exercises"]
+    }
+  },
+  "quickAddFlow": {
+    "step1_basic": {
+      "required": ["name", "url", "category"],
+      "optional": ["description", "tags", "recommendedBy"]
+    },
+    "step2_template": {
+      "message": "¿Qué tipo de herramienta es?",
+      "options": [
+        {
+          "key": "api-client",
+          "label": "🌐 Cliente API/REST",
+          "hint": "Postman, Insomnia, etc."
+        },
+        {
+          "key": "frontend-framework",
+          "label": "⚛️ Framework Frontend",
+          "hint": "React, Vue, Angular, etc."
+        },
+        {
+          "key": "ui-library",
+          "label": "🎨 Librería UI",
+          "hint": "Material-UI, Bootstrap, etc."
+        },
+        {
+          "key": "build-tool",
+          "label": "🔧 Herramienta Build",
+          "hint": "Webpack, Vite, etc."
+        },
+        {
+          "key": "testing-tool",
+          "label": "🧪 Testing",
+          "hint": "Jest, Cypress, etc."
+        },
+        {
+          "key": "documentation",
+          "label": "📖 Documentación",
+          "hint": "Docs oficiales, tutoriales"
+        },
+        {
+          "key": "design-tool",
+          "label": "🎭 Herramienta Diseño",
+          "hint": "Figma, Sketch, etc."
+        },
+        {
+          "key": "devops-tool",
+          "label": "⚙️ DevOps",
+          "hint": "Docker, Jenkins, etc."
+        },
+        {
+          "key": "learning-resource",
+          "label": "🎓 Recurso Aprendizaje",
+          "hint": "Cursos, libros, blogs"
+        },
+        {
+          "key": "custom",
+          "label": "📝 Personalizado",
+          "hint": "Llenar manualmente"
+        }
+      ]
+    },
+    "step3_optional": {
+      "message": "Información adicional (opcional):",
+      "fields": ["notes", "rating", "priority", "personalTags"]
+    }
+  },
+  "autoDetection": {
+    "urlPatterns": {
+      "github.com": {
+        "category": "tools",
+        "tags": ["opensource", "github"],
+        "extractInfo": ["stars", "language", "description", "license"]
+      },
+      "npmjs.com": {
+        "category": "libraries",
+        "tags": ["npm", "javascript"],
+        "extractInfo": ["downloads", "version", "description"]
+      },
+      "docs.": {
+        "category": "documentation",
+        "subcategory": "official",
+        "tags": ["documentation", "official"]
+      },
+      "figma.com": {
+        "category": "design",
+        "tags": ["design", "figma", "ui-ux"]
+      },
+      "youtube.com/watch": {
+        "category": "learning",
+        "subcategory": "video",
+        "tags": ["video", "tutorial", "youtube"]
+      }
+    },
+    "namePatterns": {
+      "regex": [
+        { "pattern": ".*\\s(API|Rest|HTTP).*", "suggests": "api-client" },
+        {
+          "pattern": ".*(React|Vue|Angular).*",
+          "suggests": "frontend-framework"
+        },
+        { "pattern": ".*(UI|Component|Design).*", "suggests": "ui-library" },
+        { "pattern": ".*(Build|Bundle|Pack).*", "suggests": "build-tool" },
+        { "pattern": ".*(Test|Spec|Mock).*", "suggests": "testing-tool" },
+        { "pattern": ".*(Doc|Guide|Tutorial).*", "suggests": "documentation" },
+        { "pattern": ".*(Deploy|Docker|CI/CD).*", "suggests": "devops-tool" }
+      ]
+    }
+  },
+  "fieldDefaults": {
+    "rating": 0.0,
+    "popularity": "unknown",
+    "learningCurve": "unknown",
+    "isActive": true,
+    "isComplete": false,
+    "license": "unknown",
+    "dateAdded": "auto-generated",
+    "lastUpdated": "auto-generated",
+    "id": "auto-generated"
+  },
+  "validationRules": {
+    "name": {
+      "required": true,
+      "minLength": 2,
+      "maxLength": 100
+    },
+    "url": {
+      "required": true,
+      "pattern": "^https?://.*"
+    },
+    "description": {
+      "maxLength": 500,
+      "suggested": true
+    },
+    "tags": {
+      "maxCount": 10,
+      "suggested": ["javascript", "frontend", "backend", "api", "ui", "testing"]
+    }
+  }
+}

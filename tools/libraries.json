@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "category": "libraries",
+  "lastUpdated": "2025-06-28T00:00:00Z",
+  "tools": [
+    {
+      "id": "axios",
+      "name": "Axios",
+      "description": "Cliente HTTP basado en promesas para el navegador y Node.js.",
+      "url": "https://axios-http.com/",
+      "officialUrl": "https://axios-http.com/",
+      "documentationUrl": "https://axios-http.com/docs/",
+      "githubUrl": "https://github.com/axios/axios",
+      "tags": ["http", "api", "javascript", "promise-based", "xhr"],
+      "category": "libraries",
+      "subcategory": "http",
+      "language": "javascript",
+      "rating": 4.7,
+      "popularity": "very high",
+      "learningCurve": "easy",
+      "dateAdded": "2025-06-28T00:00:00Z",
+      "lastUpdated": "2025-06-28T00:00:00Z",
+      "recommendedBy": "frontend-developers",
+      "notes": "Ampliamente utilizado para hacer peticiones HTTP en aplicaciones web y Node.js.",
+      "useCases": ["consumir APIs REST", "enviar datos a servidores", "manejo de errores HTTP"],
+      "alternatives": ["Fetch API", "jQuery.ajax"],
+      "requirements": {},
+      "isActive": true,
+      "license": "MIT",
+      "company": "",
+      "icon": "https://axios-http.com/assets/logo.svg"
+    }
+  ]
+}
