@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Categories Schema",
+  "description": "Schema for the categories.json file",
+  "type": "object",
+  "required": ["version", "categories", "tags"],
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Version of the categories data"
+    },
+    "categories": {
+      "type": "array",
+      "description": "List of tool categories",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "description", "path", "icon", "color", "subcategories"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9-]+$", "description": "Unique identifier for the category" },
+          "name": { "type": "string", "description": "Display name of the category" },
+          "description": { "type": "string", "description": "Short description of the category" },
+          "path": { "type": "string", "pattern": "^tools\\/[a-z0-9-]+\\.json$", "description": "Path to the JSON file containing tools for this category" },
+          "icon": { "type": "string", "description": "Emoji or path to an icon for the category" },
+          "color": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$", "description": "Hex color code for the category" },
+          "subcategories": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["id", "name"],
+              "properties": {
+                "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+                "name": { "type": "string" }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "tags": {
+      "type": "array",
+      "description": "List of global tags",
+      "items": {
+        "type": "object",
+        "required": ["name", "color"],
+        "properties": {
+          "name": { "type": "string" },
+          "color": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}
